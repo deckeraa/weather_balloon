@@ -1,0 +1,50 @@
+** Sensors
+*** Thermistor
+One internal, one external
+**** ADC
+| MCP3008 | $1.94 |
+|         |       |
+
+**** MCP9803
+
+*** Accelerometer
+**** ADXL345BCCZ
+$5.60
+I2C
+**** NMA7660FCR1
+$1.06
+I2C
+
+*** Magnetometer
+HMC5843
+$3.25
+
+*** Barometer
+Range: [0.89kPa,120kPa]
+**** MPL115A2
+$2.41 -- includes a thermometer
+[50kPa,115kPa] ± 1kPa
+(18,305 ft)
+-40C to 105C
+I2C
+**** BMPO85
+
+**** MPX4115A
+$15.50
+[15kPa,115kPa]a
+(44,647 ft)
+Need an ADC
+
+**** LPS331APTR <==
+$3.55
+[26kPa,126kPa] ± 0.2 kPa
+-40C to 85C
+I2C
+
+*** GPS
+GPS-11058 from sparkfun $49.95
+GPS-00464 from sparkfun $12.95
+*** Humidity
+
+** Other
+*** Power Resistors for heating
